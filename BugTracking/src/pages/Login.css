@@ -67,3 +67,17 @@ html, body, #root {
 .login-form button:hover {
   background-color: #0056b3;
 }
+
+.signout-btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.signout-btn:hover {
+  background-color: #b52a37;
+}

@@ -19,6 +19,12 @@ const Login = () => {
     }
   };
 
+  const handleSignOut = () => {
+    logout();       
+    navigate("/register"); 
+  };
+
+
   return (
     <div className="login-container">
       <form className="login-form" onSubmit={submit}>
@@ -43,6 +49,9 @@ const Login = () => {
         />
 
         <button type="submit">Login</button>
+        <p className="register-link">
+          Don't have an account? <a href="/register">Register</a>
+        </p>
       </form>
     </div>
   );
